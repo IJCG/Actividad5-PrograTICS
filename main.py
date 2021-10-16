@@ -27,6 +27,7 @@ while n == 0:
         os.system("cls")
         print(f"¡Me da gusto seguir teniendote aqui {name.title()}!\n\nAhora calcularemos el area de un cilindro, deberas proporcionarme los siguientes datos:\n\n1) Altura en centimetos\n2) Radio de alguna de las bases en centimetros\n")
         time.sleep(5)
+        
         #Captura de datos 
         altura = int(input("Altura: "))
         radio = int(input("Radio: "))
@@ -38,6 +39,7 @@ while n == 0:
         time.sleep(2)
         os.system("cls")
         print("Estoy haciendo las operaciones correspondientes...\n")
+        
         #Proceso de calculo
         hr = altura + radio
         resultado = 2 * PI * radio * hr
@@ -54,6 +56,7 @@ while n == 0:
     else:
         n = 1
 else:
+    #Despedida
     os.system("cls")
     print("\n\n\nFue un placer, adios <3\n\n\n")
     os.system("exit")
